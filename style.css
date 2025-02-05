@@ -1,0 +1,86 @@
+.subscribe-button{
+
+  background-color: red;
+  color: white;
+  height: 50px;
+  width: 120px;
+  margin-top: 15%;
+  margin-left:35%;
+  padding-top: 10px;
+  padding-bottom:10px;
+  margin-right: 20px;
+  border-radius: 9px;
+  text-align:center;
+  text-shadow: 20px;
+  font-weight: bold;
+  font-size: medium;
+  transition:  opacity  1.5s ;
+  cursor: pointer;
+  
+
+}
+.subscribe-button:hover{
+  background-color:yellow;
+  color:red;
+ }
+  .subscribe-button:active{
+    background-color: green;
+    color:white;
+    opacity: 20;
+  }
+   
+  #join-button{
+    background-color:white;
+    color: rgb(6, 95, 212);
+    height: 50px;
+    width: 120px;
+    margin-top: 15%;
+    margin-left:20px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin-right: 0px;
+    border-radius: 28px;
+    text-align:center;
+    text-shadow: 20px;
+    font-weight: bold;
+    font-size: medium;
+    transition:  background-color 0.15s ,
+    color 0.15s;
+    border-style: solid;
+    cursor: pointer;
+    border-color: rgb(6, 95, 212);
+    border-width: 1px;
+    box-shadow:5px 5px 12px black ;
+
+  }
+  #join-button:hover{
+    background-color: rgb(6, 95, 212);
+    color: white;
+  }
+  #join-button:active{
+    opacity: 0.7;
+  }
+   
+  #follow-button{
+    background-color:rgb(29, 155, 240);
+    color:white;
+    height: 50px;
+    width: 120px;
+    margin-top: 15%;
+    margin-left:50px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    text-align:center;
+    font-weight: bold;
+    font-size: medium;
+    transition:  box-shadow 0.15s;
+    cursor:progress;
+    border: 1px;;
+    border-radius: 1px;
+    vertical-align: top;
+  }
+   #follow-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+   }
+
+
